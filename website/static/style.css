@@ -54,8 +54,8 @@ Extra (xl) large devices (large desktops, 1200px and up)
 
 /* not needed but better for testing */
 .morph-marker{
-    min-height: 800px;
+    /*min-height: 800px;*/
 
 }
 
-.last-morph{min-height: 400px;}
+.last-morph{}
