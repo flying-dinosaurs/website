@@ -4,14 +4,7 @@ html, body {
     height:100%;
     widht:100%;
     font-family: "Poppins", sans-serif;
-    color: #222};
-
-
-/*--- Bootstrap Padding Fix --*/
-[class*="col-"] {
-    padding: 1rem;
 }
-
 
 
 
@@ -31,3 +24,38 @@ Large (lg) devices (desktops, 992px and up)
 Extra (xl) large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { ... }
 */
+
+/* SVG Morph */
+.morph-wrap {
+    position: fixed;
+    top: 0; /*0*/
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    /*overflow: hidden;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    pointer-events: none;
+}
+
+#morph1 {
+    position: relative;
+    height: 100%;
+    flex: none;
+}
+
+#morph2 {
+    position: relative;
+    height: 100%;
+    flex: none;
+}
+
+
+/* not needed but better for testing */
+.morph-marker{
+    min-height: 800px;
+
+}
+
+.last-morph{min-height: 400px;}
