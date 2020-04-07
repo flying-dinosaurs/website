@@ -12,13 +12,15 @@
     <link rel="stylesheet" type= "text/css" href="{{url_for('static', filename='style.css')}}">
     <!-- for pagescroll -->
     <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='jquery.fullPage.css')}}">
+    {% block css %}{% endblock %}
     <title> {{title}} </title>
   </head>
 
   <body>
+
     <!-- Navigation -->
     <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
-      <div class="container-fluid">
+      <div class="container-fluid navbar-inner">
         <!-- href="#" mean scroll to top -->
         <a class="navbar-brand" href="home"> <img src="static/imgs/bigLogo_Albatros_black.png" width="70"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
@@ -45,38 +47,9 @@
 
 
 
-    <!--- Footer -->
-    <footer>
-      <hr>
-      <div class="container-fluid pt-2 pb-5">
-        <div class="row text-center">
-
-          <div class="col-md-4">
-            <a href="gdpr">Datenschutz</a>
-          </div>
-
-          <div class="col-md-4">
-            <a href="impressum">Impressum</a>
-          </div>
-
-          <div class="col-md-4">
-            <a href="jobs">Jobs</a>
-          </div>
-        </div>
-      </div>
-    </footer>
-
-
-
-
-
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstraep/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>k
-
+    <script src="https://stackpath.bootstrapcdn.com/bootstraep/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     {% block scripts %} {% endblock %}
   </body>
 
