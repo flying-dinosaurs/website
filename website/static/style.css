@@ -17,6 +17,64 @@ html, body {
 
 .h1, .h2, .h3, .h4, .h5 {font-family: "Prime";}
 
+html.fp-enabled footer {position:absolute;
+                        width: 100%;
+                        bottom: 100px;}
+
+
+
+.info-button {
+    float:right;
+    position: relative;
+    margin: 0;
+    padding: 19px 22px;
+    transition: all 0.2s ease;
+}
+
+.info-button:before {
+    text-decoration: none;
+    content: "";
+    position: absolute;
+    top: 8px;
+    left: 0;
+    display: block;
+    border-radius: 28px;
+    background: #29F6D3;
+    width: 56px;
+    height: 56px;
+    transition: all 0.3s ease;
+}
+.info-button span {
+    position: relative;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 900;
+    letter-spacing: 0.20em;
+    text-transform: uppercase;
+    vertical-align: middle;
+}
+.info-button svg {
+    position: relative;
+    top: 0;
+    margin-left: 10px;
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke: #111;
+    stroke-width: 2;
+    transform: translateX(-5px);
+    transition: all 0.3s ease;
+}
+.info-button:hover:before {
+    width: 100%;
+    background: #29F6D3;
+}
+.info-button:hover svg {
+    transform: translateX(0);
+}
+.info-button:active {
+    transform: scale(0.96);
+}
 
 /*
 Extra small (xs) devices (portrait phones, less than 576px)
@@ -33,10 +91,10 @@ Large (lg) devices (desktops, 992px and up)
 
 Extra (xl) large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { ... }
-*/
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         */
 
-/* SVG Morph */
-.morph-wrap {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          /* SVG Morph */
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          .morph-wrap {
     position: fixed;
     top: 0;
     left: 0;

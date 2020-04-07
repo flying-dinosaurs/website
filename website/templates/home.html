@@ -59,19 +59,19 @@
       <div class="col-xs-12 col-sm-6 col-md-4">
         <img src="" width="100" height="100">
         <h5>Beratung und Analyse</h5>
-        <p>Analyse der Daten und des Anwedungsfeldes mit Beratung zu potentiellen Usecases</p>
+        <p>Analyse der Daten und des Anwendungsfeldes mit Beratung zu potentiellen Usecases.</p>
       </div>
       <div class="col-xs-12 col-sm-6 col-md-4">
         <img src="" width="100" height="100">
         <h5>Forschung und Entwicklung</h5>
-        <p>Erforschung von neuen Mehtoden
-          oder eine Implementierung und Anpassung von Bewährten.
+        <p>Erforschung von neuen Methoden
+          oder eine Implementierung und Anpassung von Bewährtem.
       </div>
       <div class="col-sm-12 col-md-4">
         <img src="" width="100" height="100">
         <h5>Deployment und Anwendung</h5>
         Anbindung von Tools an Bestehende Systeme
-        oder eine Entwicklung eines Userinterfaces
+        oder eine Entwicklung eines Userinterfaces.
       </div>
     </div>
   </div>
@@ -85,10 +85,9 @@
         <p>Vorhersagen und Risikoabschätzungen</p>
       </div>
       <div class="col-xs-12 col-sm-6 col-md-4">
-        <p>Eine Auswahl der von uns angebotenen Möglichkeiten.
-          In der Praxis setzt sich ein Usecase meist aus mehreren Komponenten zusammen.
-          Doch wir decken alles von der Planung, über Datensatzerstellung bis zu Umsetzung ab.
-          Mehr Details hierzu gibt es <a href="{{url_for('services')}}">hier</a>
+        <h4> Für jeden Job das richtige Werkzeug</h4>
+        In der Praxis setzt sich ein Usecase meist aus mehreren Anfoderungen zusammen.
+        Wir helfen bei jedem Schritt: von der Planung, über die Datensatzerstellung bis zu Umsetzung.
         </p>
       </div>
       <div class="col-sm-12 col-md-4">
@@ -110,6 +109,14 @@
         <p>Userinterfaces und Appentwicklung</p>
       </div>
     </div>
+
+    <a href="{{url_for('services')}}" class="info-button" style="text-decoration: none;  color: inherit;">
+      <span>Mehr Infos</span>
+      <svg width="13px" height="10px" viewBox="0 0 13 10">
+        <path d="M1,5 L11,5"></path>
+        <polyline points="8 1 12 5 8 9"></polyline>
+      </svg>
+    </a>
   </div>
 
 
@@ -117,8 +124,8 @@
     <div class="row justify-content-center my-5">
       <div class="col-xs-12 col-sm-8 text-center">
         <h2>Über uns</h2>
-        <p>Die Gründer von Albatros Coding haben einen diversen Hintergrund, von Neuropsychologie,
-          Physik, Mathematik, Computational Linguistik bis zu Robotik. Zusammen fanden sie sich im
+        <p>Die Mitglieder von Albatros Coding haben einen diversen Hintergrund, von Neuropsychologie,
+          Physik, Mathematik über Computational Linguistik bis zu Robotik. Zusammen fanden sich die Gründer im
           Masterstudiengang zur künstlichen Intelligenz an der Universität Potsdam.
           Mit gesammelter Arbeitserfahrungen in der Forschung kam die Erkenntnis,
           dass ihr Hauptinteresse darin liegt, das akademische
@@ -128,9 +135,13 @@
           Dieser Austausch gibt uns Zugang zu einem breiten Wissensnetzwerk und erlaubt es uns mit den
           rasanten Entwicklungen im Bereich der künstlichen Intelligenz Schritt zu halten.
         </p>
-        <div align="right">
-          <a href="{{url_for('about_us')}}">Erfahre mehr über uns</a>
-        </div>
+        <a href="{{url_for('services')}}" class="info-button" style="text-decoration: none;  color: inherit;">
+          <span>Erfahre mehr über uns</span>
+          <svg width="13px" height="10px" viewBox="0 0 13 10">
+            <path d="M1,5 L11,5"></path>
+            <polyline points="8 1 12 5 8 9"></polyline>
+          </svg>
+        </a>
       </div>
     </div>
     <div class="row text-center ">
@@ -154,41 +165,70 @@
     </div>
   </div>
 
-
   <div class="container section">
     <div class="row justify-content-center">
       <div class="col-6 text-left">
         <h1>Kontakt</h1>
-        Schreib uns eine E-Mail:
-        <h4>management@albatros-coding.de</h4>
+        <div class="row">
+          Schreib uns eine E-Mail:
+          <a href="" class="info-button"
+             style="text-decoration: none;  color: inherit; float:left;">
+            <span style="font-size:20px;">info@albatros-coding.de</span>
+            <svg width="13px" height="10px" viewBox="0 0 13 10">
+              <path d="M1,5 L11,5"></path>
+              <polyline points="8 1 12 5 8 9"></polyline>
+            </svg>
+          </a>
+        </div>
         <br>
-        Ruf uns an oder schreib uns in Whatsapp/Telegram:
-        <h4>+123456789</h4>
-        <br>
-        Oder komm doch einfach vorbei:
-        <h4><a href="https://www.openstreetmap.org/node/2878368272">Torfstraße 18, 12345 Berlin </a></h4>
+
+          <div class="row">
+            Ruf uns an oder schreib uns in Whatsapp/Telegram:
+            <a href="" class="info-button"
+               style="text-decoration: none;  color: inherit; float:left;">
+              <span style="font-size:20px;">+12345678</span>
+              <svg width="13px" height="10px" viewBox="0 0 13 10">
+                <path d="M1,5 L11,5"></path>
+                <polyline points="8 1 12 5 8 9"></polyline>
+              </svg>
+            </a>
+          </div>
+          <br>
+
+          <div class="row">
+            Oder komm doch einfach vorbei:
+            <a href="https://www.openstreetmap.org/node/2878368272" class="info-button"
+               style="text-decoration: none;  color: inherit; float:left;">
+              <span style="font-size:20px;">Torfstraße 18, 12345 Berlin</span>
+              <svg width="13px" height="10px" viewBox="0 0 13 10">
+              <path d="M1,5 L11,5"></path>
+              <polyline points="8 1 12 5 8 9"></polyline>
+            </svg>
+          </a>
+        </div>
       </div>
       <div class="col-6">
         <img src="" width="400", height="200">
       </div>
     </div>
 
-    <div class="row align-items-end text-center">
-      <div class="col-md-4">
-        <a href="gdpr">Datenschutz</a>
-      </div>
+    <footer>
+      <hr style="height:2px;border:none;color:#D6D6D6;background-color:#D6D6D6;" />
+      <div class="row align-items-end text-center">
+        <div class="col-4">
+          <a href="gdpr">Datenschutz</a>
+        </div>
 
-      <div class="col-md-4">
-        <a href="impressum">Impressum</a>
-      </div>
+        <div class="col-4">
+          <a href="impressum">Impressum</a>
+        </div>
 
-      <div class="col-md-4">
-        <a href="jobs">Jobs</a>
+        <div class="col-4">
+          <a href="jobs">Jobs</a>
+        </div>
       </div>
-    </div>
-
+    </footer>
   </div>
-
 
 </div>
 {% endblock %}
