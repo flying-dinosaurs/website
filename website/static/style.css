@@ -17,6 +17,15 @@ html, body {
 
 .h1, .h2, .h3, .h4, .h5 {font-family: "Prime";}
 
+.collapse.show {z-index: 999 !important};
+.navbar-collapse {
+    z-index: 999 !important;
+}
+
+.bg-light {
+    background-color: rgba(0,0,0,0) !important;
+}
+
 html.fp-enabled footer {position:absolute;
                         width: 100%;
                         bottom: 100px;}
