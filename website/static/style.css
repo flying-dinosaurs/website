@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Cairo:400,500,700');
 @font-face {
     font-family: Prime;
-    src: url(/static/fonts/Prime-Regular.woff);
+    src: url('/static/fonts/Prime-Regular.woff');
 }
 
 html, body {
     height:100%;
-    widht:100%;
+    width:100%;
     font-family: "Cairo", sans-serif;
     background: url(/static/imgs/grid.svg);
     background-repeat: no-repeat;
@@ -15,22 +15,35 @@ html, body {
     font-size: 20px;
 }
 
-.h1, .h2, .h3, .h4, .h5 {font-family: "Prime";}
+h1, h2, h3, h4, h5 {font-family: "Prime";}
 
-.collapse.show {z-index: 999 !important};
-.navbar-collapse {
-    z-index: 999 !important;
+::-moz-selection { /* Code for Firefox */
+    color:  #868A81;
+    background: #29F6D3;
 }
 
-.bg-light {
-    background-color: rgba(0,0,0,0) !important;
+::selection {
+    color:  #868A81;
+    background: #29F6D3;
 }
 
-html.fp-enabled footer {position:absolute;
-                        width: 100%;
-                        bottom: 100px;}
+/* to pad the bottom when in phone mode and fullpage is scrolled */
+.section {padding-bottom:100px !important;
+          padding-top:0px !important;}
 
+.footer-links{
+    position: relative;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 900;
+    letter-spacing: 0.20em;
+    text-transform: uppercase;
+    vertical-align: middle;
+    color:  #868A81}
 
+.footer-links:hover{color:#CBCBCB;
+                    font-size:17px;
+                    text-decoration:none}
 
 .info-button {
     float:right;
@@ -85,35 +98,8 @@ html.fp-enabled footer {position:absolute;
     transform: scale(0.96);
 }
 
-/*
-Extra small (xs) devices (portrait phones, less than 576px)
-No media query since this is the default in Bootstrap
-
-Small (sm) devices (landscape phones, 576px and up)
-@media (min-width: 576px) { ... }
-
-Medium (md) devices (tablets, 768px and up)
-@media (min-width: 768px) { ... }
-
-Large (lg) devices (desktops, 992px and up)
-@media (min-width: 992px) { ... }
-
-Extra (xl) large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { ... }
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         */
-
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          /* SVG Morph */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          .morph-wrap {
-    position: fixed;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    width: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    pointer-events: none;
-}
+/* SVG Morph */
+.morph-wrap {}
 
 #morph1 {
     position: fixed;}
@@ -124,9 +110,28 @@ Extra (xl) large devices (large desktops, 1200px and up)
 #morph3 {
     position: fixed;}
 
-.morph-marker{
-    /*min-height: 800px;*/
 
-}
+/*Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap*/
 
-.last-morph{}
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) { }
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+    .sticky-top{position: fixed;
+                width: 100%;}
+    .bg-light {
+        background-color: rgba(0,0,0,0) !important;
+    }
+    .info-button span {
+        font-size: 20px;
+    }
+    .section {padding-bottom:50px !important;
+              padding-top:50px !important;}
+
+    /* Large devices (desktops, 992px and up)*/
+    @media (min-width: 992px) { }
+
+    /* Extra large devices (large desktops, 1200px and up)*/
+    @media (min-width: 1200px) { }

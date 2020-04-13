@@ -148,6 +148,10 @@
 
     $(document).ready(function() {
         init();
+        $('#fullpage').fullpage({
+            scrollOverflow:true,
+            paddingTop:'50px',
+            paddingBottom:'50px',});
     });
 
 

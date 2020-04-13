@@ -1,7 +1,64 @@
 {% extends "layout.html" %}
 
-
 {% block content %}
-Jobs
-TODO
-{% endblock %}
+<div class="morph-wrap">
+  <svg id="morph2" width="1440" height="1024" viewBox="0 0 1440 1024" style="fill:#FDEF59">
+    <path d="M190.882318,422.991582 C291.540494,373.409903 334.32884,348.516665 409.756717,311.643319 C485.184595,274.769974 547.619128,225.338087 665.102251,319.059696 C782.585373,412.781305 890.419268,464.832506 951.200371,484.180475 C1011.98147,503.528444 1155.27001,567.809044 1134.89949,394.603386 C1114.52897,221.397728 1084.22053,36.0591414 1059.78997,1.43587113 C1057.18246,-2.25952259 965.990181,-119.066861 847.448106,-115.938264 C693.678755,-111.879939 284.285495,-111.879939 -8.93242202,-28.340559 C-158.81077,14.3605981 -188.319274,123.266041 -201.017035,195.105912 C-227.608602,345.552491 -69.2882898,467.279781 -8.93242202,467.279781 C51.4234458,467.279781 90.2241416,472.573261 190.882318,422.991582 Z"\>
+  </svg>
+</div>
+
+<div class="morph-wrap">
+  <svg id="morph1" width="1440" height="1024" viewBox="0 0 1440 1024" style="fill:#29F6D3" >
+    <path d='M 262.9,252.2 C 210.1,338.2 212.6,487.6 288.8,553.9 372.2,626.5 511.2,517.8 620.3,536.3 750.6,558.4 860.3,723 987.3,686.5 1089,657.3 1168,534.7 1173,429.2 1178,313.7 1096,189.1 995.1,130.7 852.1,47.07 658.8,78.95 498.1,119.2 410.7,141.1 322.6,154.8 262.9,252.2 Z'/>
+  </svg>
+</div>
+
+<div class="morph-wrap">
+  <svg id="morph3" width="1440" height="1024" viewBox="0 0 1440 1024" style="fill:#6644FD">
+    <path
+        d="m543.08 289.17c0 55.9-44 108.5-90.3 108.5-46.4 0-95-52.6-95-108.5 0-55.8 48.6-114.8 95-114.8 46.3 0 90.3 59 90.3 114.8z"/>
+  </svg>
+</div>
+
+<div id="fullpage">
+  <div class="container section">
+    <div class="row">
+      <div class="col-6 text-left">
+        <h1>Du suchst ein Praktikum oder einen Werkstudentenjob?</h1>
+        <h2>Schick uns eine Intiativbewerbung!</h2>
+        <a href="" class="info-button"
+           style="text-decoration: none;  color: inherit; float:left;">
+          <span style="">info@albatros-coding.de</span>
+          <svg width="13px" height="10px" viewBox="0 0 13 10">
+            <path d="M1,5 L11,5"></path>
+            <polyline points="8 1 12 5 8 9"></polyline>
+          </svg>
+        </a>
+      </div>
+      <div class="col-sm-12 col-lg-6 text-center">
+        <img src="" width="400" height="200">
+      </div>
+    </div>
+    </div>
+    <!-- footer -->
+    <div class="container section fp-auto-height" >
+      <div class="row align-items-end text-center" height="600px">
+        <div class="col-4">
+          <a class="footer-links" href="gdpr">Datenschutz</a>
+        </div>
+
+        <div class="col-4">
+          <a class="footer-links" href="impressum">Impressum</a>
+        </div>
+
+        <div class="col-4">
+          <a class="footer-links" href="jobs">Jobs</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  {% endblock %}
+
+  {% block scripts %}
+  <script src="/static/js_plain.js"></script>
+  {% endblock %}

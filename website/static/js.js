@@ -684,7 +684,8 @@
         $('#fullpage').fullpage({
             navigation:true,
             scrollOverflow:true,
-            paddingBotom: '50px',
+            paddingTop:'50px',
+            paddingBottom:'50px',
             onLeave: function(index, nextIndex, direction){
                 DOMS.forEach(function (DOM, DOMindex) {
                     var shapes = shapesArray[DOMindex];
