@@ -1,19 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="1440px" height="1024px" viewBox="0 0 1440 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
-    <title>Desktop HD</title>
+    <title>Grid_Desktop HD</title>
     <desc>Created with Sketch.</desc>
-    <g id="Desktop-HD" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Group-2" transform="translate(202.000000, 0.000000)" stroke="#D6D6D6" stroke-width="2">
-            <line x1="208" y1="666.5" x2="3" y2="666.372195" id="Path-4"></line>
-            <line x1="622" y1="890.5" x2="417" y2="890.372195" id="Path-4"></line>
-            <line x1="0.5" y1="1023.50049" x2="0.5" y2="0.499512195" id="Path-4"></line>
-            <line x1="206" y1="1023.50049" x2="206" y2="0.499512195" id="Path-4"></line>
-            <line x1="413" y1="1023.50049" x2="413" y2="0.499512195" id="Path-4"></line>
-            <line x1="621" y1="1023.50049" x2="621" y2="0.499512195" id="Path-4"></line>
-            <line x1="827" y1="1023.50049" x2="827" y2="0.499512195" id="Path-4"></line>
-            <line x1="1037" y1="259.5" x2="832" y2="259.372195" id="Path-4"></line>
-            <line x1="1036" y1="1023.50049" x2="1036" y2="0.499512195" id="Path-4"></line>
+    <g id="Grid_Desktop-HD" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Gitter" transform="translate(-1.000000, 0.000000)" stroke="#D6D6D6">
+            <line x1="411.5" y1="1025.5" x2="411.5" y2="-0.5" id="Path-4" transform="translate(411.500000, 512.500000) rotate(180.000000) translate(-411.500000, -512.500000) "></line>
+            <line x1="617.5" y1="1025.5" x2="617.5" y2="-0.5" id="Path-4" transform="translate(617.500000, 512.500000) rotate(180.000000) translate(-617.500000, -512.500000) "></line>
+            <line x1="823.5" y1="1025.5" x2="823.5" y2="-0.5" id="Path-4" transform="translate(823.500000, 512.500000) rotate(180.000000) translate(-823.500000, -512.500000) "></line>
+            <line x1="1029.5" y1="1025.5" x2="1029.5" y2="-0.5" id="Path-4" transform="translate(1029.500000, 512.500000) rotate(180.000000) translate(-1029.500000, -512.500000) "></line>
+            <line x1="1235.5" y1="1025.5" x2="1235.5" y2="-0.5" id="Path-4" transform="translate(1235.500000, 512.500000) rotate(180.000000) translate(-1235.500000, -512.500000) "></line>
+            <line x1="205.5" y1="1025.5" x2="205.5" y2="-0.5" id="Path-4" transform="translate(205.500000, 512.500000) rotate(180.000000) translate(-205.500000, -512.500000) "></line>
+            <line x1="1441.5" y1="1025.5" x2="1441.5" y2="-0.5" id="Path-4" transform="translate(1441.500000, 512.500000) rotate(180.000000) translate(-1441.500000, -512.500000) "></line>
+            <line x1="1235.5" y1="385.5" x2="1029.5" y2="385.5" id="Path-4" transform="translate(1132.500000, 385.500000) rotate(-180.000000) translate(-1132.500000, -385.500000) "></line>
+            <line x1="0.5" y1="1025.5" x2="0.5" y2="-0.5" id="Path-4" transform="translate(0.500000, 512.500000) rotate(180.000000) translate(-0.500000, -512.500000) "></line>
+            <line x1="411.5" y1="638.5" x2="205.5" y2="638.5" id="Path-4" transform="translate(308.500000, 638.500000) rotate(180.000000) translate(-308.500000, -638.500000) "></line>
+            <line x1="823.5" y1="900.5" x2="617.5" y2="900.5" id="Path-4" transform="translate(720.500000, 900.500000) rotate(-180.000000) translate(-720.500000, -900.500000) "></line>
         </g>
     </g>
 </svg>

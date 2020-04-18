@@ -5,32 +5,36 @@
 
 {% block content %}
 
+<div class="container morph-wrap">
+  <div class="row justify-content-center">
+    <svg id="morph1" width="1440" height="1024" viewBox="0 0 1440 1024" style="fill:#29F6D3" >
+      <path d="M 415.6,206.3 C 407.4,286.6 438.1,373.6 496.2,454.8 554.3,536.1 497,597.2 579.7,685.7 662.4,774.1 834.3,731.7 898.5,653.4 962.3,575 967.1,486 937.7,370 909.3,253.9 937.7,201.5 833.4,105.4 729.3,9.338 602.2,13.73 530.6,41.91 459,70.08 423.9,126.1 415.6,206.3 Z"/>
+    </svg>
+  </div>
+</div>
 
-<div class="morph-wrap">
+<!--
+<div class="container morph-wrap">
   <svg id="morph2" width="1440" height="1024" viewBox="0 0 1440 1024" style="fill:#FDEF59">
-    <path d="M190.882318,422.991582 C291.540494,373.409903 334.32884,348.516665 409.756717,311.643319 C485.184595,274.769974 547.619128,225.338087 665.102251,319.059696 C782.585373,412.781305 890.419268,464.832506 951.200371,484.180475 C1011.98147,503.528444 1155.27001,567.809044 1134.89949,394.603386 C1114.52897,221.397728 1084.22053,36.0591414 1059.78997,1.43587113 C1057.18246,-2.25952259 965.990181,-119.066861 847.448106,-115.938264 C693.678755,-111.879939 284.285495,-111.879939 -8.93242202,-28.340559 C-158.81077,14.3605981 -188.319274,123.266041 -201.017035,195.105912 C-227.608602,345.552491 -69.2882898,467.279781 -8.93242202,467.279781 C51.4234458,467.279781 90.2241416,472.573261 190.882318,422.991582 Z"\>
+    <path d="M 527.65516,37.614425 C 582.04077,73.040406 611.08834,174.04052 598.2909,258.17948 585.62142,342.31845 531.10693,409.59626 494.37975,486.92275 457.65256,564.24923 438.58471,651.6244 406.46505,649.24041 374.21742,646.68611 328.91798,554.37264 286.81729,508.55687 244.84457,462.74108 206.0706,463.42299 150.27734,430.72217 94.356107,398.02136 21.288135,331.93783 21.288135,274.53952 c 0,-57.3983 72.942072,-106.2817 133.854605,-140.17662 C 216.05528,100.29765 264.93879,81.22088 329.17838,56.693579 393.54594,32.166276 473.26957,2.0181245 527.65516,37.614425 Z"/>
   </svg>
 </div>
 
-<div class="morph-wrap">
-  <svg id="morph1" width="1440" height="1024" viewBox="0 0 1440 1024" style="fill:#29F6D3" >
-    <path d='M 262.9,252.2 C 210.1,338.2 212.6,487.6 288.8,553.9 372.2,626.5 511.2,517.8 620.3,536.3 750.6,558.4 860.3,723 987.3,686.5 1089,657.3 1168,534.7 1173,429.2 1178,313.7 1096,189.1 995.1,130.7 852.1,47.07 658.8,78.95 498.1,119.2 410.7,141.1 322.6,154.8 262.9,252.2 Z'/>
-  </svg>
-</div>
-
-<div class="morph-wrap">
+<div class="container morph-wrap">
   <svg id="morph3" width="1440" height="1024" viewBox="0 0 1440 1024" style="fill:#6644FD">
     <path
         d="m543.08 289.17c0 55.9-44 108.5-90.3 108.5-46.4 0-95-52.6-95-108.5 0-55.8 48.6-114.8 95-114.8 46.3 0 90.3 59 90.3 114.8z"/>
   </svg>
 </div>
-
+-->
 
 <div id="fullpage">
   <div class="container section">
     <div class="row justify-content-center">
-      <div class="col-xs-12 col-sm-8 text-center">
-        <h1>Vision</h1>
+      <div class="col-xs-12 col-md-6 text-left">
+        <span class="front-slogan">künstliche Intelligenz für den Menschen</span>
+      </div>
+      <div class="col-xs-12 col-md-6 text-left">
         <p>An der Schnittstelle zwischen Industrie und Forschung entwickeln wir
           anwendungsorientierte, intelligente und nachhaltige Lösungen
           für verschiedene Fragestellungen aus den Bereichen Datenverarbeitung,
@@ -47,186 +51,272 @@
     </div>
   </div>
 
+
   <div class="container section">
-    <div class="row justify-content-center">
-      <div class="col">
-        <h3>Wir begleiten Sie, vom Erstgespräch bis zur Anwendung</h3>
-        <br>
+    <div class="row justify-content-left">
+      <div class="col-7">
+        <span class="overview-slogan">vom Erstgespräch<br>bis zur Anwendung</span>
       </div>
     </div>
-    <div class="row text-center ">
-      <div class="col-xs-12 col-sm-6 col-md-4">
-        <img src="" width="100" height="100">
-        <h5>Beratung und Analyse</h5>
-        <p>Analyse der Daten und des Anwendungsfeldes mit Beratung zu potentiellen Usecases.</p>
+    <div class="row justify-content-center text-center pt-5">
+      <div class="col-xs-12 col-sm-6 col-md-4 anwendung-group">
+        <div class="row justify-content-center text-center">
+          <img src="static/imgs/icon_beratung.svg" width="100" height="100">
+        </div>
+        <div class="row justify-content-center text-center">
+          <div class="anwendung-header pb-2 pt-3">Beratung und Analyse</div>
+        </div>
+        <div class="row justify-content-center text-center">
+          <div class="anwendung-text justify-content-center ">
+            Analyse der Daten und des Anwendungsfeldes mit Beratung zu potentiellen Usecases.
+          </div>
+        </div>
       </div>
-      <div class="col-xs-12 col-sm-6 col-md-4">
-        <img src="" width="100" height="100">
-        <h5>Forschung und Entwicklung</h5>
-        <p>Erforschung von neuen Methoden
-          oder eine Implementierung und Anpassung von Bewährtem.
+      <div class="col-xs-12 col-sm-6 col-md-4 anwendung-group">
+        <div class="row justify-content-center text-center">
+          <img src="static/imgs/icon_forschung.svg" width="100" height="100">
+        </div>
+        <div class="row justify-content-center text-center">
+          <div class="anwendung-header pb-2 pt-3">Forschung und Entwicklung</div>
+        </div>
+        <div class="row justify-content-center text-center">
+          <div class="anwendung-text justify-content-center ">
+            Erforschung von neuen Methoden
+            oder eine Implementierung und Anpassung von Bewährtem.
+          </div>
+        </div>
       </div>
-      <div class="col-sm-12 col-md-4">
-        <img src="" width="100" height="100">
-        <h5>Deployment und Anwendung</h5>
-        <p>
-          Anbindung von Tools an Bestehende Systeme
-          oder eine Entwicklung eines Userinterfaces.
-        </p>
+      <div class="col-xs-12 col-sm-6 col-md-4 anwendung-group">
+        <div class="row justify-content-center text-center">
+          <img src="static/imgs/icon_deployment.svg" width="100" height="100">
+        </div>
+        <div class="row justify-content-center text-center">
+          <div class="anwendung-header pb-2 pt-3">Deployment und Anwendung</div>
+        </div>
+        <div class="row justify-content-center text-center">
+          <div class="anwendung-text justify-content-center ">
+            Anbindung von Tools an Bestehende Systeme
+            oder eine Entwicklung eines Userinterfaces.
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row pt-5 justify-content-right text-right">
+      <div class="col">
+        <a href="{{url_for('services')}}" class="info-button" style="text-decoration: none;  color: inherit;">
+          <span>Zu unseren Leistungen</span>
+          <svg width="13px" height="10px" viewBox="0 0 13 10">
+            <path d="M1,5 L11,5"></path>
+            <polyline points="8 1 12 5 8 9"></polyline>
+          </svg>
+        </a>
       </div>
     </div>
   </div>
 
 
+
   <div class="container section">
-    <h2 class="text-center"> Für jeden Job das richtige Werkzeug</h2>
-    <br>
-    <div class="row text-center">
-      <div class="col-sm-12 col-md-4">
-        <img src="" width="130" height="130">
-        <p>Klassifizierung und Erkennung</p>
+    <div class="row justify-content-end">
+      <div class="col-12 text-center">
+        <div class="components-slogan">für jeden Job das richtige Werkzeug</div>
       </div>
-      <div class="col-xs-12 col-sm-6 col-md-4 order-first order-md-0">
-        <p>
+    </div>
+    <div class="row text-center justify-content-center">
+      <div class="col-xs-12 col-sm-6 col-md-4 order-md-0 components-block">
+        <img src="static/imgs/icon_anomalie.svg" width="100" height="100">
+        <div class="components-header pt-3">Anomalie Erkennung</div>
+      </div>
+      <div class="col-xs-12 col-md-4 order-first order-md-1 components-block">
+        <span class="components-text">
           In der Praxis setzt sich ein Usecase meist aus mehreren Komponenten und Anfoderungen zusammen.
           Wir helfen bei jedem Schritt: von der Planung, über die Datensatzerstellung bis zu Umsetzung.
-        </p>
+        </span>
       </div>
-      <div class="col-xs-12 col-sm-6 col-md-4">
-        <img src="" width="130" height="130">
-        <p>Vorhersagen und Risikoabschätzungen</p>
-      </div>
-
-    </div>
-    <div class="row text-center">
-      <div class="col-xs-12 col-sm-6 col-md-4">
-        <img src="" width="130" height="130">
-        <p>Datensatzerstellung</p>
-      </div>
-      <div class="col-sm-12 col-md-4">
-        <img src="" width="130" height="130">
-        <p>Userinterfaces und Appentwicklung</p>
-      </div>
-      <div class="col-xs-12 col-sm-6 col-md-4">
-        <img src="" width="130" height="130">
-        <p>Anomalie Erkennung</p>
+      <div class="col-xs-12 col-sm-6 col-md-4 order-md-2 components-block">
+        <img src="static/imgs/icon_klassifizierung.svg" width="100" height="100">
+        <div class="components-header pt-3">Klassifizierung und Erkennung</div>
       </div>
     </div>
 
-    <a href="{{url_for('services')}}" class="info-button" style="text-decoration: none;  color: inherit;">
-      <span>Mehr Infos</span>
-      <svg width="13px" height="10px" viewBox="0 0 13 10">
-        <path d="M1,5 L11,5"></path>
-        <polyline points="8 1 12 5 8 9"></polyline>
-      </svg>
-    </a>
+    <div class="row text-center justify-content-center">
+      <div class="col-xs-12 col-sm-6 col-md-4 components-block">
+        <div class="col">
+          <img src="static/imgs/icon_vorhersagen.svg" width="100" height="100">
+          <div class="components-header pt-3">Vorhersagen und Risikoabschätzungen</div>
+        </div>
+      </div>
+
+      <div class="col-xs-12 col-sm-6 col-md-4 components-block">
+        <img src="static/imgs/icon_interface.svg" width="100" height="100">
+        <div class="components-header pt-3">Userinterfaces und App-entwicklung</div>
+      </div>
+
+      <div class="col-xs-12 col-sm-6 col-md-4 components-block">
+        <img src="static/imgs/icon_datensatz.svg" width="100" height="100">
+        <div class="components-header pt-3">Datensatzerstellung</div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col">
+        <a href="{{url_for('services')}}" class="info-button" style="text-decoration: none;  color: inherit;">
+          <span>Zu unseren Leistungen<span>
+            <svg width="13px" height="10px" viewBox="0 0 13 10">
+              <path d="M1,5 L11,5"></path>
+              <polyline points="8 1 12 5 8 9"></polyline>
+            </svg>
+        </a>
+      </div>
+    </div>
   </div>
 
 
-  <div class="container  section">
-    <div class="row justify-content-center my-2">
-      <div class="col-xs-12 col-sm-8 text-center">
-        <h2>Über uns</h2>
-        <p>Die Mitglieder von Albatros Coding haben einen diversen Hintergrund, von Neuropsychologie,
-          Physik, Mathematik über Computational Linguistik bis zu Robotik. Die Gründer lernten sich im
-          Masterstudiengang zur künstlichen Intelligenz an der Universität Potsdam kennen.
-          Arbeitserfahrungen in der Forschung ließen den Wunsch aufkommen, das akademische
-          Wissen und die erlangten Erkenntnisse für alle nutzbar zu machen.
-          Durch das beständige Interesse auf dem neusten Stand der Technik zu bleiben, sind
-          auch heute noch manche Mitglieder aktiv in Forschung und Lehre involviert.
-          Dieser Austausch gibt uns Zugang zu einem breiten Wissensnetzwerk und erlaubt es uns mit den
-          rasanten Entwicklungen im Bereich der künstlichen Intelligenz Schritt zu halten.
-        </p>
-      </div>
-    </div>
-    <div class="row text-center ">
-      <div class="col-sm-12 col-md-4">
-        <img src="static/imgs/portrait.png" width="200">
-        <h3>Jan Milde</h3>
-        <p>Geschäftsführer/Gründer</p>
+  <div class="container section pt-md-5">
+    <div class="row justify-content-around pt-md-5">
+      <div class="col-xs-12 col-lg-6 pr-md-5">
+        <div class="row justify-content-center">
+          <div class="col-xs-12 col-sm-6 col-md-4">
+            <div class="row justify-content-center">
+              <img src="static/imgs/portrait.png" width="120">
+            </div>
+            <div class="row justify-content-center">
+              <span class="about-header pt-md-3 pb-md-2">Jan Milde</span>
+            </div>
+            <div class="row justify-content-center">
+              <span>CEO/Gründer</span>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-4">
+            <div class="row justify-content-center">
+              <img src="static/imgs/portrait.png" width="120">
+            </div>
+            <div class="row justify-content-center">
+              <span class="about-header pt-md-3 pb-md-2">Simon Untergasser</span>
+            </div>
+            <div class="row justify-content-center">
+              <span>CEO/Gründer</span>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-4">
+            <div class="row justify-content-center">
+              <img src="static/imgs/portrait.png" width="120">
+            </div>
+            <div class="row justify-content-center">
+              <span class="about-header pt-md-3 pb-md-2">Kuan Yu</span>
+            </div>
+            <div class="row justify-content-center">
+              <span>CEO/Gründer</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="row pt-xs-3 pt-lg-5 pl-md-3">
+          <div class="col-12 text-sm-center text-lg-left">
+            <span class="about-slogan">die menschliche Komponente</span>
+          </div>
+        </div>
       </div>
 
-      <div class="col-xs-12 col-sm-6 col-md-4">
-        <img src="static/imgs/portrait.png" width="200">
-        <h3>Simon Untergasser</h3>
-        <p>Geschäftsführer/Gründer</p>
-      </div>
-
-      <div class="col-xs-12 col-sm-6 col-md-4">
-        <img src="static/imgs/portrait.png" width="200">
-        <h3>Kuan Yu</h3>
-        <p>Geschäftsführer/Gründer</p>
+      <div class="col-xs-12 col-sm-10 col-lg-5 col-lg-4 align-self-lg-end about-text text-center pt-2">
+        Die Mitglieder von Albatros Coding haben einen diversen Hintergrund, von Neuropsychologie,
+        Physik, Mathematik über Computational Linguistik bis zu Robotik. Die Gründer lernten sich im
+        Masterstudiengang zur künstlichen Intelligenz an der Universität Potsdam kennen.
+        Arbeitserfahrungen in der Forschung ließen den Wunsch aufkommen, das akademische
+        Wissen und die erlangten Erkenntnisse für alle nutzbar zu machen.
+        Durch das beständige Interesse auf dem neusten Stand der Technik zu bleiben, sind
+        auch heute noch manche Mitglieder aktiv in Forschung und Lehre involviert.
+        Dieser Austausch gibt uns Zugang zu einem breiten Wissensnetzwerk und erlaubt es uns mit den
+        rasanten Entwicklungen im Bereich der künstlichen Intelligenz Schritt zu halten.
       </div>
     </div>
-    <a href="{{url_for('services')}}" class="info-button" style="text-decoration: none;  color: inherit;">
-      <span>Erfahre mehr über uns</span>
-      <svg width="13px" height="10px" viewBox="0 0 13 10">
-        <path d="M1,5 L11,5"></path>
-        <polyline points="8 1 12 5 8 9"></polyline>
-      </svg>
-    </a>
+
+    <div class="row pt-md-5">
+      <div class="col">
+        <a href="{{url_for('services')}}" class="info-button" style="text-decoration: none;  color: inherit;">
+          <span>Erfahre mehr über uns</span>
+          <svg width="13px" height="10px" viewBox="0 0 13 10">
+            <path d="M1,5 L11,5"></path>
+            <polyline points="8 1 12 5 8 9"></polyline>
+          </svg>
+        </a>
+      </div>
+    </div>
   </div>
 
   <div class="container section">
-    <div class="row justify-content-center">
-      <div class="col-sm-12 col-md-6 text-left">
-        <h1>Kontakt</h1>
-        <div class="row">
-          <div class="col">
-            Schreib uns eine E-Mail:
-            <a href="mailto:info@albatros-coding.de" class="info-button"
-               style="text-decoration: none;  color: inherit; float:left;">
-              <span >info@albatros-coding.de</span>
-              <svg width="13px" height="10px" viewBox="0 0 13 10">
-                <path d="M1,5 L11,5"></path>
-                <polyline points="8 1 12 5 8 9"></polyline>
-              </svg>
-            </a>
+    <div class="row justify-content-around pl-5">
+      <div class="col-sm-12 col-lg-6">
+
+        <div class="row pb-3">
+          <div class="col contact-slogan">
+            Hello, World!
           </div>
         </div>
-        <br>
 
         <div class="row">
           <div class="col">
-            Ruf uns an oder schreib uns in Whatsapp/Telegram:
-
+            <div class="row">
+              <span>Schreib uns eine E-Mail:</span>
+            </div>
+            <div class="row">
+              <a href="mailto:info@albatros-coding.de" class="info-button"
+                 style="text-decoration: none;  color: inherit; float:left;">
+                <span >info@albatros-coding.de</span>
+                <svg width="13px" height="10px" viewBox="0 0 13 10">
+                  <path d="M1,5 L11,5"></path>
+                  <polyline points="8 1 12 5 8 9"></polyline>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="row">
+              Ruf uns an oder schreib uns in Whatsapp/Telegram:
+            </div>
             <!--  &nbsp;
-            <a class="social-icons" href="https://wa.me/4917638601936" target="_blank" rel="noopener noreferrer">
-              <img src="/static/imgs/whatsapp.png" width="24px">
-            </a>
-            &nbsp;&nbsp;
-            <a class="social-icons" href="https://telegram.me/Jan_Milde" target="_blank" rel="noopener noreferrer">
-              <img src="/static/imgs/telegram.png" width="24px">
-            </a>
+                 <a class="social-icons" href="https://wa.me/4917638601936" target="_blank" rel="noopener noreferrer">
+                 <img src="/static/imgs/whatsapp.png" width="24px">
+                 </a>
+                 &nbsp;&nbsp;
+                 <a class="social-icons" href="https://telegram.me/Jan_Milde" target="_blank" rel="noopener noreferrer">
+                 <img src="/static/imgs/telegram.png" width="24px">
+                 </a>
             -->
-            <a href="tel:+4917638601936" class="info-button" target="_blank" rel="noopener noreferrer"
-               style="text-decoration: none;  color: inherit; float:left;">
-              <span >0176-38601936</span>
-              <svg width="13px" height="10px" viewBox="0 0 13 10">
-                <path d="M1,5 L11,5"></path>
-                <polyline points="8 1 12 5 8 9"></polyline>
-              </svg>
-            </a>
+            <div class="row">
+              <a href="tel:+4917638601936" class="info-button" target="_blank" rel="noopener noreferrer"
+                 style="text-decoration: none;  color: inherit; float:left;">
+                <span >0176-38601936</span>
+                <svg width="13px" height="10px" viewBox="0 0 13 10">
+                  <path d="M1,5 L11,5"></path>
+                  <polyline points="8 1 12 5 8 9"></polyline>
+                </svg>
+              </a>
+            </div>
           </div>
         </div>
-        <br>
-
         <div class="row">
           <div class="col">
-            Oder komm doch einfach vorbei:
-            <a href="https://www.openstreetmap.org/node/2878368272" class="info-button"
-               target="_blank" rel="noopener noreferrer"
-               style="text-decoration: none;  color: inherit; float:left;">
-              <span >Torfstraße 18, 13353 Berlin</span>
-              <svg width="13px" height="10px" viewBox="0 0 13 10">
-                <path d="M1,5 L11,5"></path>
-                <polyline points="8 1 12 5 8 9"></polyline>
-              </svg>
-            </a>
+            <div class="row">
+              Oder komm doch einfach vorbei:
+            </div>
+            <div class="row">
+              <a href="https://www.openstreetmap.org/node/2878368272" class="info-button"
+                 target="_blank" rel="noopener noreferrer"
+                 style="text-decoration: none;  color: inherit; float:left;">
+                <span >Torfstraße 18, 13353 Berlin</span>
+                <svg width="13px" height="10px" viewBox="0 0 13 10">
+                  <path d="M1,5 L11,5"></path>
+                  <polyline points="8 1 12 5 8 9"></polyline>
+                </svg>
+              </a>
+            </div>
           </div>
         </div>
       </div>
-      <div class="col-xs-12 col-md-6">
+      <div class="col-xs-12 col-md-6 align-self-center text-sm-center text-md-right">
         <img src="" width="400", height="200">
       </div>
     </div>
@@ -249,10 +339,9 @@
     </div>
   </div>
 
-</div>
-{% endblock %}
+  {% endblock %}
 
 
-{% block scripts %}
-<script  type="text/javascript" src="/static/js.js"></script>
-{% endblock %}
+  {% block scripts %}
+  <script  type="text/javascript" src="/static/js.js"></script>
+  {% endblock %}
