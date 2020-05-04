@@ -1081,6 +1081,7 @@ $(document).ready(function() {
     $('#fullpage').fullpage({
         navigation:true,
         scrollOverflow:true,
+        scrollOverflowReset: true,
         paddingTop:'50px',
         paddingBottom:'50px',
         //afterLoad: function(_, index) {
