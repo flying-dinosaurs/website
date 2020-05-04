@@ -8,4 +8,3 @@ import sys
 sys.path.insert(0, "/srv/http/homepage/")
 
 from website import app as application
-application.secret_key = 'e7aa3f7a8556fb6de845d51a'
