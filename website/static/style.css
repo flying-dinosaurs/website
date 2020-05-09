@@ -7,6 +7,9 @@
 html, body {
     height:100%;
     width:100%;
+    background-image:url("/static/imgs/grid.svg");
+    background-position: center;
+    background-repeat: false;
     font-family: "Cairo", sans-serif;
     font-size: 18px;
 }
@@ -187,52 +190,42 @@ h1, h2, h3, h4, h5 {font-family: "Prime";}
             }
 
 #morph1 {
-    z-index:-1;
     max-width:1440px;
     width: 1440px;
     height: auto;
     position: fixed;}
 
 #morph2 {
-    z-index:-2;
     max-width:1440px;
     width: 1440px;
     height: auto;
     position: fixed;}
 
 #morph3 {
-    z-index:-6;
     max-width:1440px;
     width: 1440px;
     height: auto;
     position: fixed;}
 
 #morph4 {
-    z-index:-5;
     max-width:1440px;
     width: 1440px;
     height: auto;
     position: fixed;}
 
 #morph5 {
-    z-index:-3;
     max-width:1440px;
     width: 1440px;
     height: auto;
     position: fixed;}
 
 #morph6 {
-    z-index:-4;
     max-width:1440px;
     width: 1440px;
     height: auto;
     position: fixed;}
 
-#grid { max-width:1440px;
-        width: 100%;
-        height: auto;
-        position: fixed;
-        z-index:-999;}
+
 /*Extra small devices (portrait phones, less than 576px)
 // No media query since this is the default in Bootstrap*/
 
