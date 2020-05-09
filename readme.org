@@ -1,0 +1,14 @@
+* deploy on server
+ssh to server then run in shell:
+
+#+BEGIN_SRC
+  cd /srv/http/homepage
+  sudo git pull
+  sudo systemctl restart httpd
+#+END_SRC
+
+to check the status of the deployment
+
+#+BEGIN_SRC
+systemctl status httpd
+#+END_Src
