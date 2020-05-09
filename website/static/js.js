@@ -4,8 +4,8 @@
             // blob 1
 
             // page 1
-            {path:"M 890.725,15.007725 C 924.44719,28.49505 1035.0592,6.3339249 1056.5296,47.666962 1078,89 915.15412,161.49285 857.00941,161.49285 798.86471,161.49285 753.92167,188.97351 725.52355,178.2079 697.12542,167.50715 794.39352,107.2699 768.83193,69.326923 743.27035,31.383944 653.41945,101.2354 637.58097,55.959894 621.74249,10.684383 628,6.5 642,0 L 851.7586,0.10860002 C 856.2586,0.11092984 857.0028,1.5204002 890.725,15.007725 Z",
-             pathAlt:"M881.5,0 C935.179925,15.0126752 1004.02962,41.6669625 1025.5,83 C1046.97038,124.333038 899.144708,167.5 841,167.5 C782.855292,167.5 726.398123,193.265607 698,182.5 C669.601877,171.799246 728.061588,140.44298 702.5,102.5 C676.938412,64.5570205 620.838479,93.2755106 605,48 C589.161521,2.72448943 616.5,9 629.5,0 C686.166667,0 728.666667,0 757,0 C784.666667,0 826.166667,0 881.5,0 Z",
+            {path:"M 890.725,15.015538 C 924.44719,28.502862 1035.0592,6.3417374 1056.5296,47.674774 1078,89.007812 915.15412,161.50066 857.00941,161.50066 798.86471,161.50066 753.92167,188.98132 725.52355,178.21571 697.12542,167.51496 794.39352,107.27771 768.83193,69.334735 743.27035,31.391756 653.41945,101.24321 637.58097,55.967706 621.74249,10.692196 628,6.5078125 642,0.0078125 642,0.0078125 848.98786,0.00648379 851.78204,0.01875627 877.26283,9.7616745 857.0028,1.5282127 890.725,15.015538 Z",
+             pathAlt:"M 865.94358,0.0078125 C 919.62351,15.020487 988.47323,41.674774 1009.9438,83.007812 1031.4142,124.34086 883.58829,167.50782 825.44358,167.50782 767.29888,167.50782 710.84171,193.27343 682.44358,182.50782 654.04546,171.80707 712.50517,140.4508 686.94358,102.50782 661.382,64.564832 605.28206,93.283323 589.44358,48.007812 573.6051,2.732302 600.94358,9.0078126 613.94358,0.0078125 613.94358,0.0078125 698.94358,0.0078125 741.44358,0.0078125 782.94358,0.0078125 865.94358,0.0078125 865.94358,0.0078125 Z",
              scaleX: 1,
              scaleY: 1,
              rotate: 0,
@@ -17,14 +17,15 @@
                  easing: 'linear'
              },
              animation: {
+                 easing: 4500,
                  path: {
-                     duration: 3000,
-                     easing: 'easeOutElastic',
-                     elasticity: 600
+                     duration: 1000,
+                     easing: 'easeInOutQuad',
+
                  },
                  svg: {
-                     duration: 2000,
-                     easing: 'easeOutElastic'
+                     duration: 1000,
+                     easing: 'easeInOutQuad'
                  }
              }
             },
@@ -43,14 +44,14 @@
                  easing: 'linear'
              },
              animation: {
+                 easing: 4500,
                  path: {
-                     duration: 2000,
-                     easing: 'easeOutElastic',
-                     elasticity: 600
+                     duration: 1000,
+                     easing: 'easeInOutQuad',
                  },
                  svg: {
-                     duration: 2000,
-                     easing: 'easeOutElastic'
+                     duration: 1000,
+                     easing: 'easeInOutQuad'
                  }
              }
             },
@@ -70,14 +71,14 @@
                     easing: 'linear'
                 },
                 animation: {
+                    easing: 4500,
                     path: {
-                        duration: 3000,
-                        easing: 'easeOutElastic',
-                        elasticity: 600
+                        duration: 1000,
+                        easing: 'easeInOutQuad',
                     },
                     svg: {
-                        duration: 2500,
-                        easing: 'easeOutElastic'
+                        duration: 1000,
+                        easing: 'easeInOutQuad'
                     }
                 }
             },
@@ -97,14 +98,15 @@
                     easing: 'linear'
                 },
                 animation: {
+                    easing: 4500,
                     path: {
-                        duration: 3000,
+                        duration: 1250,
                         easing: 'easeOutQuad',
-                        elasticity: 600
+
                     },
                     svg: {
-                        duration: 3000,
-                        easing: 'easeOutElastic'
+                        duration: 1000,
+                        easing: 'easeInOutQuad'
                     }
                 }
             },
@@ -124,14 +126,15 @@
                     easing: 'linear'
                 },
                 animation: {
+                    easing: 4500,
                     path: {
-                        duration: 3000,
-                        easing: 'easeOutElastic',
-                        elasticity: 600
+                        duration: 1000,
+                        easing: 'easeInOutQuad',
+
                     },
                     svg: {
-                        duration: 2000,
-                        easing: 'easeOutExpo'
+                        duration: 1000,
+                        easing: 'easeInOutQuad'
                     }
                 }
             },
@@ -151,14 +154,15 @@
                     easing: 'linear'
                 },
                 animation: {
+                    easing: 4500,
                     path: {
-                        duration: 3000,
-                        easing: 'easeOutElastic',
-                        elasticity: 600
+                        duration: 1000,
+                        easing: 'easeInOutQuad',
+
                     },
                     svg: {
-                        duration: 2000,
-                        easing: 'easeOutExpo'
+                        duration: 1000,
+                        easing: 'easeInOutQuad'
                     }
                 }
             }
@@ -170,8 +174,8 @@
         [
             // page 1
             {
-                path: "M 1310,0 C 1296.9656,24.831364 1295.9045,46.874601 1234.8859,88.534345 1174.0957,130.19407 1089.8365,166.40928 1005.3103,160.94487 954.45841,157.7271 901.40452,180.97033 851.94338,182 818.96787,182.68648 814.46571,160.94487 778,160.94487 723.87429,160.94487 808.40463,105.78223 788,85 739.57858,35.682508 799.48709,0.03376711 815,0 H 1029.5 Z",
-                pathAlt: "M 1221,0 C 1207.9656,24.831364 1261.5187,71.840256 1200.5,113.5 1139.7098,155.15972 1085.5262,187.46441 1001,182 950.14807,178.78223 878.40452,180.97033 828.94338,182 795.96787,182.68648 796,161 775,135 755.26172,110.56214 730.26697,96.089466 749.12457,35.569966 759.23404,3.1257537 824.76689,0.02113426 849,0 H 1031 Z",
+                path: "M 1309.9844,0.01171875 C 1296.95,24.843083 1295.8889,46.886319 1234.8703,88.546064 1174.0801,130.20579 1089.8209,166.421 1005.2947,160.95659 954.44278,157.73882 901.3889,180.98205 851.92776,182.01172 818.95224,182.6982 801.93562,176.90347 811.88688,155.03668 836.25912,101.48139 837.52788,98.130836 860.05135,74.344783 830.24892,25.809992 799.47146,0.04548586 814.98437,0.01171875 814.98437,0.01171875 946.9844,0.01171875 1029.4844,0.01171875 1111.9844,0.01171875 1309.9844,0.01171875 1309.9844,0.01171875 Z",
+                pathAlt: "M 1221,0.0078125 C 1207.9656,24.839177 1261.5187,71.848069 1200.5,113.50781 1139.7098,155.16753 1085.5262,187.47222 1001,182.00781 950.14807,178.79004 869.53561,210.2874 828.94338,182.00781 783.23995,150.16738 805.49321,135.52847 805.79899,102.10832 806.08591,70.750012 807.65175,85.227222 808.12457,51.577779 808.60203,17.598368 824.76689,0.02894676 849,0.0078125 849,0.0078125 970.33333,0.0078125 1031,0.0078125 1094.3333,0.0078125 1221,0.0078125 1221,0.0078125 Z",
                 scaleX: 1,
                 scaleY: 1,
                 rotate: 0,
@@ -183,6 +187,7 @@
                     easing: 'linear'
                 },
                 animation: {
+                    easing: 4000,
                     path: {
                         duration: 1000,
                         easing: 'easeInOutQuad'
@@ -209,6 +214,7 @@
                     easing: 'linear'
                 },
                 animation: {
+                    easing: 4000,
                     path: {
                         duration: 1000,
                         easing: 'easeInOutQuad'
@@ -235,6 +241,7 @@
                     easing: 'linear'
                 },
                 animation: {
+                    easing: 4000,
                     path: {
                         duration: 1000,
                         easing: 'easeInOutQuad'
@@ -261,6 +268,7 @@
                     easing: 'linear'
                 },
                 animation: {
+                    easing: 4000,
                     path: {
                         duration: 1000,
                         easing: 'easeInOutQuad'
@@ -287,13 +295,14 @@
                     easing: 'linear'
                 },
                 animation: {
+                    easing: 4000,
                     path: {
-                        duration: 2000,
-                        easing: 'easeOutElastic',
-                        elasticity: 400
+                        duration: 1000,
+                        easing: 'easeInOutQuad',
+
                     },
                     svg: {
-                        duration: 2000,
+                        duration: 1000,
                         easing: 'easeOutQuad'
                     }
                 }
@@ -314,13 +323,14 @@
                     easing: 'linear'
                 },
                 animation: {
+                    easing: 4000,
                     path: {
-                        duration: 2000,
-                        easing: 'easeOutElastic',
-                        elasticity: 400
+                        duration: 1000,
+                        easing: 'easeInOutQuad',
+
                     },
                     svg: {
-                        duration: 2000,
+                        duration: 1000,
                         easing: 'easeOutQuad'
                     }
                 }
@@ -334,8 +344,8 @@
         [
             //page 1
             {
-                path: "M 743,0 C 787.58905,4.7778339 791.72021,25.601594 761,47.5 730.27979,69.464764 740,82.5 714,132.5 688,182.5 624.78156,202.67308 596,182.5 567.06931,162.32692 565.30749,121.81041 549.5,102.5 533.69251,83.189588 522.83825,81.369548 469,63.5 415.16176,45.630452 379,31 400,0 480.22222,0 540.38889,0 580.5,0 616.61111,0 670.77778,0 743,0 Z",
-                pathAlt: "M 743,0 C 787.58905,4.7778339 832.72021,6.6015941 858,22.5 897.27979,50.464764 910.11828,56.831378 839,111.5 794.31942,145.84596 624.78156,202.67308 596,182.5 567.06931,162.32692 565.30749,121.81041 549.5,102.5 533.69251,83.189588 522.83825,81.369548 469,63.5 415.16176,45.630452 379,31 400,0 H 580.5 Z",
+                path: "M 824.50391,0.01171875 C 874.92913,0.18204415 1118.2681,41.393218 1066.4678,115.19074 1050.5172,140.6307 794.4045,167.73446 751.1576,177.62192 707.9107,187.57574 646.91766,180.14355 618.1361,159.97048 589.20541,139.7974 592.48621,106.94979 576.67872,87.639378 560.87124,68.328966 565.79574,70.206042 511.9575,52.336494 458.11925,34.466946 432.00391,31.011719 453.00391,0.01171875 453.00391,0.01171875 581.67058,0.01171875 646.00391,0.01171875 705.50391,0.01171875 824.50391,0.01171875 824.50391,0.01171875 Z",
+                pathAlt: "M 743,0.0078125 C 787.58905,4.7856464 832.72021,6.6094066 858,22.507813 897.27979,50.472577 910.11828,56.839191 839,111.50781 794.31942,145.85377 624.78156,202.68089 596,182.50781 567.06931,162.33473 565.30749,121.81822 549.5,102.50781 533.69251,83.197401 522.83825,81.377361 469,63.507813 415.16176,45.638265 379,31.007813 400,0.0078125 400,0.0078125 520.33333,0.0078125 580.5,0.0078125 634.66667,0.0078125 743,0.0078125 743,0.0078125 Z",
                 scaleX: 1,
                 scaleY: 1,
                 rotate: 0,
@@ -347,6 +357,7 @@
                     easing: 'linear'
                 },
                 animation: {
+                    easing: 5000,
                     path: {
                         duration: 1000,
                         easing: 'easeInOutQuad'
@@ -373,6 +384,7 @@
                     easing: 'linear'
                 },
                 animation: {
+                    easing: 5000,
                     path: {
                         duration: 1000,
                         easing: 'easeInOutQuad'
@@ -399,6 +411,7 @@
                     easing: 'linear'
                 },
                 animation: {
+                    easing: 5000,
                     path: {
                         duration: 1000,
                         easing: 'easeInOutQuad'
@@ -424,6 +437,7 @@
                     easing: 'linear'
                 },
                 animation: {
+                    easing: 5000,
                     path: {
                         duration: 1000,
                         easing: 'easeInOutQuad'
@@ -450,13 +464,14 @@
                     easing: 'linear'
                 },
                 animation: {
+                    easing: 5000,
                     path: {
-                        duration: 2000,
-                        easing: 'easeOutElastic',
-                        elasticity: 400
+                        duration: 1000,
+                        easing: 'easeInOutQuad',
+
                     },
                     svg: {
-                        duration: 2000,
+                        duration: 1000,
                         easing: 'easeOutQuad'
                     }
                 }
@@ -477,13 +492,14 @@
                     easing: 'linear'
                 },
                 animation: {
+                    easing: 5000,
                     path: {
-                        duration: 2000,
-                        easing: 'easeOutElastic',
-                        elasticity: 400
+                        duration: 1000,
+                        easing: 'easeInOutQuad',
+
                     },
                     svg: {
-                        duration: 2000,
+                        duration: 1000,
                         easing: 'easeOutQuad'
                     }
                 }
@@ -534,6 +550,7 @@
                     easing: 'linear'
                 },
                 animation: {
+                    easing: 5000,
                     path: {
                         duration: 1000,
                         easing: 'easeInOutQuad'
@@ -560,6 +577,7 @@
                     easing: 'linear'
                 },
                 animation: {
+                    easing: 5000,
                     path: {
                         duration: 1000,
                         easing: 'easeInOutQuad'
@@ -586,6 +604,7 @@
                     easing: 'linear'
                 },
                 animation: {
+                    easing: 5000,
                     path: {
                         duration: 1000,
                         easing: 'easeInOutQuad'
@@ -612,6 +631,7 @@
                     easing: 'linear'
                 },
                 animation: {
+                    easing: 5000,
                     path: {
                         duration: 1000,
                         easing: 'easeInOutQuad'
@@ -638,6 +658,7 @@
                     easing: 'linear'
                 },
                 animation: {
+                    easing: 5000,
                     path: {
                         duration: 1000,
                         easing: 'easeInOutQuad'
@@ -667,6 +688,7 @@
                     easing: 'linear'
                 },
                 animation: {
+                    easing: 4000,
                     path: {
                         duration: 1000,
                         easing: 'easeInOutQuad'
@@ -693,6 +715,7 @@
                     easing: 'linear'
                 },
                 animation: {
+                    easing: 4000,
                     path: {
                         duration: 1000,
                         easing: 'easeInOutQuad'
@@ -719,6 +742,7 @@
                     easing: 'linear'
                 },
                 animation: {
+                    easing: 4000,
                     path: {
                         duration: 1000,
                         easing: 'easeInOutQuad'
@@ -745,6 +769,7 @@
                     easing: 'linear'
                 },
                 animation: {
+                    easing: 4000,
                     path: {
                         duration: 1000,
                         easing: 'easeInOutQuad'
@@ -771,6 +796,7 @@
                     easing: 'linear'
                 },
                 animation: {
+                    easing: 4000,
                     path: {
                         duration: 1000,
                         easing: 'easeInOutQuad'
@@ -797,6 +823,7 @@
                     easing: 'linear'
                 },
                 animation: {
+                    easing: 4000,
                     path: {
                         duration: 1000,
                         easing: 'easeInOutQuad'
@@ -827,6 +854,7 @@
                     easing: 'linear'
                 },
                 animation: {
+                    easing: 5000,
                     path: {
                         duration: 1000,
                         easing: 'easeInOutQuad'
@@ -853,6 +881,7 @@
                     easing: 'linear'
                 },
                 animation: {
+                    easing: 5000,
                     path: {
                         duration: 1000,
                         easing: 'easeInOutQuad'
@@ -879,6 +908,7 @@
                     easing: 'linear'
                 },
                 animation: {
+                    easing: 5000,
                     path: {
                         duration: 1000,
                         easing: 'easeInOutQuad'
@@ -905,6 +935,7 @@
                     easing: 'linear'
                 },
                 animation: {
+                    easing: 5000,
                     path: {
                         duration: 1000,
                         easing: 'easeInOutQuad'
@@ -931,6 +962,7 @@
                     easing: 'linear'
                 },
                 animation: {
+                    easing: 5000,
                     path: {
                         duration: 1000,
                         easing: 'easeInOutQuad'
@@ -957,6 +989,7 @@
                     easing: 'linear'
                 },
                 animation: {
+                    easing: 5000,
                     path: {
                         duration: 1000,
                         easing: 'easeInOutQuad'
@@ -999,22 +1032,23 @@
     const DOMS = [DOM1, DOM2, DOM3, DOM4, DOM5, DOM6];
 
 
-    const initShapeLoop = function(shape, DOM, duration) {
-                      var dur = duration || 3500;
-                      anime.remove(DOM.shapeEl);
-                      anime({
-                          targets: DOM.shapeEl,
-                          easing: 'linear',
-                          d: [{value: shape.pathAlt, duration:dur}, {value: shape.path, duration:dur}],
-                          loop: true,
-                          fill: {
-                              value: shape.fill.color,
-                              duration: shape.fill.duration,
-                              easing: shape.fill.easing
-                          },
-                          direction: 'alternate'
-                      });
-                  };
+    const initShapeLoop = function(shape, DOM, duration, easing) {
+        var dur = duration || 5000;
+        var ease = easing || 'easeInOutQuad'; //'linear', 'easeInOutSine'
+        anime.remove(DOM.shapeEl);
+        anime({
+            targets: DOM.shapeEl,
+            easing: ease,
+            d: [{value: shape.pathAlt, duration:dur}, {value: shape.path, duration:dur}],
+            loop: true,
+            fill: {
+                value: shape.fill.color,
+                duration: shape.fill.duration,
+                easing: shape.fill.easing
+            },
+            direction: 'alternate'
+        });
+    };
 
     const initShapeEl = function(shape, DOM, duration) {
         anime.remove(DOM.svg);
@@ -1035,12 +1069,12 @@
 
     const init = function() {
         imagesLoaded(document.body, () => {
-            initShapeEl(shapesArray[0][0], DOM1, 3500);
+            initShapeEl(shapesArray[0][0], DOM1, 4500);
             initShapeEl(shapesArray[1][0], DOM2, 4000);
             initShapeEl(shapesArray[2][0], DOM3, 5500);
-            initShapeEl(shapesArray[3][0], DOM4, 5500);
-            initShapeEl(shapesArray[4][0], DOM5, 5500);
-            initShapeEl(shapesArray[5][0], DOM6, 5500);
+            initShapeEl(shapesArray[3][0], DOM4, 4500, 'easeInOutSine');
+            initShapeEl(shapesArray[4][0], DOM5, 5500, 'easeInOutSine');
+            initShapeEl(shapesArray[5][0], DOM6, 4000, 'easeInOutSine');
         });
 };
 
@@ -1083,7 +1117,7 @@ $(document).ready(function() {
                         easing: shapes[nextIndex-1].fill.easing
                     },
                     complete: function() {
-                        initShapeLoop(shapes[nextIndex-1], DOM);
+                        initShapeLoop(shapes[nextIndex-1], DOM, shapes[nextIndex-1].animation.easing);
                     }
                 });
 
