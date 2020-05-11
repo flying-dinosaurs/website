@@ -1,5 +1,7 @@
 {% extends "layout.html" %}
 
+{%block css%}
+{% endblock %}
 
 {% block content %}
 
@@ -41,25 +43,111 @@
 </div>
 
 <div id="fullpage">
+
+  <div class="container section pt-md-5">
+    <div class="row">
+      <div class="col">
+        <span class="front-slogan"> Referenzprojekte <span>
+      </div>
+    </div>
+  </div>
+
   <div class="container section">
     <div class="row">
-      <div class="col-6 text-left">
-        <h1>Du suchst ein Praktikum oder einen Werkstudentenjob?</h1>
-        <h2>Schick uns eine Intiativbewerbung!</h2>
-        <a href="" class="info-button"
+      <div class="col-xs-12 col-md-6 text-center  components-block">
+        <img src="..." width="200" height="300">
+        <br><br>
+        <h5>Claudia Hobohm</h5>
+        <h6>Managing Director & CEO     </h6>
+        <h6>Rhenus Archiv Services GmbH </h6>
+        <h6>Digital Female Leader 2020  </h6>
+      </div>
+      <div class="col-xs-12 col-md-6 align-self-center quote">
+        "Bei einem größeren Projekt mit einer Zeitspanne von über einem Jahr half das Albatros Team uns für eine unserer Tocherfirmen einen weiteren Markt und ein neues Geschäftsfeld mit der Hilfe von künstlicher Intelligenz zu erschließen.
+        Zunächst identifizierten wir zusammen mit Albatros und unserem Business Team wesentlichen Anforderungen und Herausforderungen.
+        Die Erfolgte im Austausch mit zukünftigen Kunden, Nutzern und Experten.
+        Anschließend wurden gezielt verschiedene intelligente Komponenten entwickelt,
+        getestet und kritisch evaluiert.
+        Für unseren Usecase haben sich unter anderem Tools für Textklassifikation,
+        Vorhersagen auf Textbasis, Vorhersagen auf diversen numerischen und kategorischen Daten,
+        sowie Risikoanalysen und Anomaliedetektion bewährt.
+        Anschließend entwickelte Albatros ein Userinterface welches den komplexen Arbeitsprozess der Nutzer unter Einbeziehung der entwickelten Tools abdeckt.
+        Der enstandene Prototyp des Produkts wurde dann vollständig dokumentiert an unser Rhenus Entwicklerteam übergeben und wird nun im Austausch mit mehreren Entwicklungspartnerschaftern in der Praxis getestet.
+        So konnten erste große Kunden gebunden und gleichzeitig Verbesserungsmöglichkeiten identifiziert werden,
+        die bei einer vollständigen und umfangreichen Entwicklung des Endproduktes einfließen.
+        "
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container section">
+    <div class="row">
+      <div class="col-xs-12 col-md-6 text-center  components-block">
+        <img src="..." width="200" height="300">
+        <br><br>
+        <h5>Thomas Krone</h5>
+        <h6>CEO</h6>
+        <h6>HERR DER LAGE Consulting GmbH</h6>
+      </div>
+      <div class="col-xs-12 col-md-6 align-self-center quote">
+        "In einem Projekt mit mehrmonatiger enger Zusammenarbeit half Albatros Coding unsere Datenanalysen zu optimieren und automatisieren.
+        Nach der Beauftragung erstellte das Team von Albatros Coding zunächst aus vorhandenen bestehenden uneinheitlichen Daten einen geordneten Datensatz.
+        Anschließend wurden verschiedene Ansätze getestet und einige Tools entwickelt, die wir direkt bei Kunden testeten.
+        Die erfolgsversprechenden Methoden wurden weiterentwickelt und sind nun bei uns Teil des Tagesgeschäftes."
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="container section">
+    <div class="row">
+      <div class="col-xs-12 col-md-6 text-center  components-block">
+        <img src="..." width="200" height="300">
+        <br><br>
+        <h5>Gregor Kalchthaler </h5>
+        <h6>CEO</h6>
+        <h6>Intraprenör GmbH</h6>
+        <h6>New Work Award 2019</h6>
+      </div>
+      <div class="col-xs-12 col-md-6 align-self-center quote">
+        "Um die Möglichkeit und Nützlichkeit einer Anwendung von künstlicher Intelligenz
+        im Bezug auf unser Geschäftsfeld abschätzen zu können,
+        nahmen wir eine Beratung von Albatros Coding in Anspruch.
+        Gemeinsam gingen wir systematisch verschiedene Ideen und Ansätze,
+        wie zum Beispiel intelligente Vorschläge zu Mitarbeiterschulungen,
+        durch und das Albatros Team erstellte anschließend eine Machbarkeitsstudie."
+      </div>
+    </div>
+  </div>
+
+  <div class="container section">
+    <div class="row">
+      <div class="col-sm-12 col-md-6 text-center">
+        <h1>Zeit für ein eigenes Projekt?</h1>
+      </div>
+      <div class="col-sm-12 col-md-6">
+        <a href="tel:+4917638601936" class="info-button" target="_blank" rel="noopener noreferrer"
            style="text-decoration: none;  color: inherit; float:left;">
-          <span style="">info@albatros-coding.de</span>
+          <span >0176-38601936</span>
+          <svg width="13px" height="10px" viewBox="0 0 13 10">
+            <path d="M1,5 L11,5"></path>
+            <polyline points="8 1 12 5 8 9"></polyline>
+          </svg>
+        </a>
+        <a href="mailto:info@albatros-coding.de" class="info-button"
+           style="text-decoration: none;  color: inherit; float:left;">
+          <span >info@albatros-coding.de</span>
           <svg width="13px" height="10px" viewBox="0 0 13 10">
             <path d="M1,5 L11,5"></path>
             <polyline points="8 1 12 5 8 9"></polyline>
           </svg>
         </a>
       </div>
-      <div class="col-sm-12 col-lg-6 text-center">
-        <img src="" width="400" height="200">
-      </div>
     </div>
   </div>
+
   <!-- footer -->
   <div class="container section fp-auto-height" >
     <div class="row align-items-end text-center" height="600px">
@@ -79,7 +167,8 @@
 </div>
 {% endblock %}
 
+
 {% block scripts %}
-<script  type="text/javascript" src="/static/blobs_footer.js"></script>
-<script  type="text/javascript" src="/static/js_plain.js"></script>
+<script  type="text/javascript" src="/static/blobs_references.js"></script>
+<script  type="text/javascript" src="/static/js.js"></script>
 {% endblock %}

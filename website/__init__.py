@@ -12,9 +12,14 @@ def home():
 def services():
     return render_template("services.html", title="Dienstleistungen")
 
-@app.route('/about_us')
-def about_us():
-    return render_template("about_us.html", title="Über Uns")
+
+@app.route('/references')
+def references():
+    return render_template("references.html", title="Referenzen")
+
+#@app.route('/about_us')
+#def about_us():
+#    return render_template("about_us.html", title="Über Uns")
 
 @app.route('/gdpr')
 def gdpr():
