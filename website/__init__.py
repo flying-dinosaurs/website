@@ -13,9 +13,9 @@ def services():
     return render_template("services.html", title="Dienstleistungen")
 
 
-@app.route('/references')
-def references():
-    return render_template("references.html", title="Referenzen")
+@app.route('/projects')
+def projects():
+    return render_template("projects.html", title="Projekte")
 
 #@app.route('/about_us')
 #def about_us():

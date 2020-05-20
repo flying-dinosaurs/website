@@ -16,6 +16,8 @@ html, body {
 
 h1, h2, h3, h4, h5 {font-family: "Prime";}
 
+
+
 ::-moz-selection { /* Code for Firefox */
     color:  #868A81;
     background: #29F6D3;
@@ -108,13 +110,19 @@ a img {-webkit-transition: all 0.75s ease;
                letter-spacing: 3.22px;
                line-height: 82px;}
 
-.overview-slogan{height: 120px;
-                 width: 576px;
-                 font-family: "Prime";
-                 font-size: 60px;
+.overview-slogan{font-family: "Prime";
+                 font-size: 50px;
                  letter-spacing: 2.36px;
                  line-height: 60px;
                 }
+
+.undertext {  color: #1A1919;
+              font-size: 18px;
+              font-weight: bold;
+              letter-spacing: 0;
+              line-height: 21.6px;
+              margin-top: 15px;
+              margin-bottom: 15px;}
 
 /* Home: page 2*/
 .anwendung-group{height: 249px;
@@ -286,6 +294,12 @@ a img {-webkit-transition: all 0.75s ease;
 
 /*Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
+    .overview-slogan{font-family: "Prime";
+                     font-size: 60px;
+                     letter-spacing: 2.36px;
+                     line-height: 60px;
+                    }
+
     .sticky-top{position: fixed;
                 width: 100%;}
     .bg-light {
