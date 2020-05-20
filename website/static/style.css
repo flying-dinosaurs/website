@@ -178,11 +178,8 @@ a img {-webkit-transition: all 0.75s ease;
                letter-spacing: 0;
                line-height: 21.6px;}
 
-.about-text {vertical-align: bottom;
-             color: #1A1919;
+.about-text {color: #1A1919;
              font-size: 18px;
-             letter-spacing: 0;
-             line-height: 21.6px;
             }
 
 /* Home: page5*/
@@ -311,6 +308,12 @@ a img {-webkit-transition: all 0.75s ease;
     .section {padding-bottom:110px !important;
               padding-top:110px !important;}
 
+    .about-text {vertical-align: bottom;
+                 color: #1A1919;
+                 font-size: 18px;
+                 letter-spacing: 0;
+                 line-height: 21.6px;
+                }
 
 }
 
