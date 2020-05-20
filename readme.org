@@ -1,14 +1,9 @@
 * deploy on server
 ssh to server then run in shell:
+in emacs: /ssh:servername|sudo:servername:
 
 #+BEGIN_SRC
   cd /srv/http/homepage
   sudo git pull
-  sudo systemctl restart httpd
+  sudo uwsgi --reload /run/homepage/homepage.pid
 #+END_SRC
-
-to check the status of the deployment
-
-#+BEGIN_SRC
-systemctl status httpd
-#+END_Src
