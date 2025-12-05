@@ -17,6 +17,10 @@ def services():
 def projects():
     return render_template("projects.html", title="Projekte")
 
+@app.route('/products')
+def products():
+    return render_template("products.html", title="Produkte")
+
 #@app.route('/about_us')
 #def about_us():
 #    return render_template("about_us.html", title="Über Uns")
